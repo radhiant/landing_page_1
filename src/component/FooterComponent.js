@@ -9,7 +9,7 @@ export default class FooterComponent extends Component {
                     <div className="row mb-5">
 
                         <div className="col-lg-3">
-                            <a href="/#">
+                            <a href="#home">
                                 <img src="assets/vector-logo.svg" height="35px" alt="img" />
                             </a>
                             <h6><br /></h6>
@@ -17,19 +17,19 @@ export default class FooterComponent extends Component {
                         <div className="col-lg-3">
                             <h5>Quick Links</h5>
                             <br /><br />
-                            <a href="/#" className="link-navbar">About Us</a><br />
-                            <a href="/#" className="link-navbar">Blog</a><br />
-                            <a href="/#" className="link-navbar">Contact</a><br />
-                            <a href="/#" className="link-navbar">FAQ</a><br />
+                            <a href="#about" className="link-navbar">About Us</a><br />
+                            <a href="#blog" className="link-navbar">Blog</a><br />
+                            <a href="#contact" className="link-navbar">Contact</a><br />
+                            <a href="#faq" className="link-navbar">FAQ</a><br />
                             <br />
                         </div>
                         <div className="col-lg-3">
                             <h5>Legal Stuff</h5>
                             <br /><br />
-                            <a href="/#" className="link-navbar">Disclaimer</a><br />
-                            <a href="/#" className="link-navbar">Financing</a><br />
-                            <a href="/#" className="link-navbar">Privacy Policy</a><br />
-                            <a href="/#" className="link-navbar">Terms of Service</a><br />
+                            <a href="#disclaimer" className="link-navbar">Disclaimer</a><br />
+                            <a href="#financing" className="link-navbar">Financing</a><br />
+                            <a href="#privacy" className="link-navbar">Privacy Policy</a><br />
+                            <a href="#tof" className="link-navbar">Terms of Service</a><br />
                             <br />
                         </div>
                         <div className="col-lg-3">

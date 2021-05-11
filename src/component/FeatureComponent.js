@@ -60,7 +60,7 @@ export default class FeatureComponent extends Component {
                         </div>
 
                         <div className="row my-5 justify-content-center">
-                            <a href="/#" className="btn btn-custom p-3 rounded shadow width-2x bold-2" data-aos="fade-up"
+                            <a href="#signup" className="btn btn-custom p-3 rounded shadow width-2x bold-2" data-aos="fade-up"
                                 data-aos-duration="300" data-aos-delay="300">SIGN UP NOW</a>
                         </div>
 

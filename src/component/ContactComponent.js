@@ -32,7 +32,7 @@ export default class ContactComponent extends Component {
                         </div>
 
                         <div className="row mt-3 mb-5 justify-content-center">
-                            <a href="/#" className="btn btn-custom p-3 rounded shadow width-2x bold-2" data-aos="fade-up"
+                            <a href="#contact" className="btn btn-custom p-3 rounded shadow width-2x bold-2" data-aos="fade-up"
                                 data-aos-duration="600" data-aos-delay="300">Contact our expert</a>
                         </div>
 

@@ -33,16 +33,16 @@ export default class NavbarComponent extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link className="me-4 link-navbar" href="/#">Product</Nav.Link>
-                            <Nav.Link className="me-4 link-navbar" href="/#">Customer</Nav.Link>
-                            <Nav.Link className="me-4 link-navbar" href="/#">Pricing</Nav.Link>
-                            <Nav.Link className="me-4 link-navbar" href="/#">Resource</Nav.Link>
+                            <Nav.Link className="me-4 link-navbar" href="#product">Product</Nav.Link>
+                            <Nav.Link className="me-4 link-navbar" href="#customer">Customer</Nav.Link>
+                            <Nav.Link className="me-4 link-navbar" href="#pricing">Pricing</Nav.Link>
+                            <Nav.Link className="me-4 link-navbar" href="#resource">Resource</Nav.Link>
                         </Nav>
                         <Nav>
                             <li className="nav-item p-3 d-flex">
-                                <a href="/#" className="nav-link btn-custom-outline rounded text-center me-2" id="btn-sign">Sign In</a>
+                                <a href="#signin" className="nav-link btn-custom-outline rounded text-center me-2" id="btn-sign">Sign In</a>
 
-                                <a href="/#" className="nav-link btn-custom-nav rounded text-center" id="btn-sign">Sign Up</a>
+                                <a href="#signup" className="nav-link btn-custom-nav rounded text-center" id="btn-sign">Sign Up</a>
                             </li>
                         </Nav>
                     </Navbar.Collapse>

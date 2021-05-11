@@ -26,12 +26,12 @@ export default class HeaderComponent extends Component {
                                 </div>
                                 <div className="row my-4">
                                     <div className="col-lg-5">
-                                        <a href="/#" className="btn btn-custom p-3 rounded shadow width-1n8x" data-aos="zoom-in"
+                                        <a href="#started" className="btn btn-custom p-3 rounded shadow width-1n8x" data-aos="zoom-in"
                                             data-aos-duration="600" data-aos-delay="600">Get Started</a>
                                     </div>
                                     <div className="col-lg-7">
                                         <br />
-                                        <a href="/#" className="link" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600"><i
+                                        <a href="#watch" className="link" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600"><i
                                             className="fas fa-play color-theme"></i> Watch the Video</a>
                                     </div>
                                 </div>

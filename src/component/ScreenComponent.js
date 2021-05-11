@@ -12,6 +12,11 @@ export default class ScreenComponent extends Component {
 
         this.openFull = this.openFull.bind(this);
         this.exitFull = this.exitFull.bind(this);
+        this.onTop = this.onTop.bind(this);
+    }
+
+    onTop() {
+        window.scrollTo(0, 0);
     }
 
     openFull() {
@@ -60,9 +65,9 @@ export default class ScreenComponent extends Component {
         return (
             <div>
                 {/*  Up Button */}
-                <a href="/#" className={`btn btn-dark btn-up text-center shadow ${this.state.hideElm}`} id="btnup">
+                <button className={`btn btn-dark btn-up text-center shadow ${this.state.hideElm}`} onClick={this.onTop}>
                     <i className="fas fa-chevron-up text-white"></i>
-                </a>
+                </button>
 
                 {/*  Fullscreen Button  */}
                 <button className={`btn btn-dark btn-full text-center shadow ${this.state.fullS}`} onClick={this.openFull}>
