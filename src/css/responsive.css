@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+.btn-up {
+    right: 16px;
+    bottom: 64px;
+  }
+
+.btn-full {
+    right: 16px;
+    bottom: 16px;
+  }
+    
+.box{
+    margin: auto;
+    text-align: left;
+}
+
+.align{
+    text-align: center;
+}
+
+.desc{
+    margin: auto;
+    max-width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1199px) {
+  
+
+}
+
+@media screen and (max-width: 992px) {
+  
+
+}
